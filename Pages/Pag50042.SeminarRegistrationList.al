@@ -81,6 +81,26 @@ page 50042 "Seminar Registration List"
         }
     }
 
+    actions
+    {
+        area(Processing)
+        {
+            action(ExportXML)
+            {
+                ApplicationArea = All;
+                Caption = 'Export XML';
+                Image = XMLFile;
+
+                trigger OnAction()
+                begin
+                    Xmlport.Run(Xmlport::SeminarRegistrationExport);
+
+                end;
+            }
+
+        }
+    }
+
 
     var
         myInt: Integer;

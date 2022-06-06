@@ -115,6 +115,45 @@ page 50041 "Seminar Registration Page"
                 SubPageLink = "Seminar Registration No." = field("No.");
             }
         }
+
+
+    }
+
+
+
+    actions
+    {
+        area(Processing)
+        {
+            action(CodeUnit)
+            {
+                ApplicationArea = All;
+                Caption = 'Create sales invoice';
+                Image = Invoice;
+
+                trigger OnAction()
+                var
+                    invoiceCreatorUnit: Codeunit "Seminar Management";
+                begin
+                    invoiceCreatorUnit.CreateSalesInvoice(Rec);
+                end;
+            }
+
+            action("Seminar Participant List")
+            {
+                Caption = 'Seminar Participant List';
+                ApplicationArea = All;
+                Image = Report;
+
+                trigger OnAction()
+                var
+                    SRH: Record "Seminar Registration Header";
+                begin
+                    SRH.SetRange("No.", Rec."No.");
+                    Report.RunModal(Report::"Seminar Participant List", true, false, SRH);
+                end;
+            }
+        }
     }
 
 

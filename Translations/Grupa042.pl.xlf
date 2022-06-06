@@ -561,6 +561,205 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Role Center - Action Seminars - Property Caption</note>
         </trans-unit>
+         <trans-unit id="Table 2235904756 - NamedType 2516271710" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record cannot be deleted.</source>
+          <target>Wiersz nie może zostać usunięty.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType RecordCantBeDeletedErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 1474061408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record cannot me modify.</source>
+          <target>Wartość nie może być modyfikowana.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType BillToCustomerModifyError</note>
+        </trans-unit>
+         <trans-unit id="Table 2143111931 - NamedType 1210729188" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Planned seminars can be deleted</source>
+          <target>Tylko planowane szkolenia mogą zostać usunięte.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SeminarCantBeDeletedErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 3882435575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminars with registered lines cannot be modified</source>
+          <target>Szkolenia z zarejestrowanymi wierszami nie mogą być modyfikowane.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SeminarWithRegisteredLinesModifyErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 326343048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date can not be modified</source>
+          <target>Data rozpoczęcia nie może być modyfikowana.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType StartingDateError</note>
+        </trans-unit>
+         <trans-unit id="Table 2143111931 - NamedType 1443718995" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. cannot be modify.</source>
+          <target>Nie można zmienić numeru szkolenia.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType NoModifyError</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 3646784421" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Price cannot be modify.</source>
+          <target>Kwota nie może zostać zmodyfikowana.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType Pricecannotbemodify</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 2208523215" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to change that field?</source>
+          <target>Czy jesteś pewny_na, że chcesz zmienić to pole?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType changeSeminarPriceAsk</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997620480 - NamedType 1373183175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice lines have been created</source>
+          <target>Faktura została utworzona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType InvoiceLinesCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997620480 - NamedType 566395159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice has not been created</source>
+          <target>Faktura nie została utworzona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType InvoiceNotCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2653002453 - Control 2680986374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Training Module</source>
+          <target>Moduł szkoleń</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales &amp; Receivables Setupex - Control Training Module - Property Caption</note>
+        </trans-unit>
+         <trans-unit id="Codeunit 1997620480 - NamedType 187372530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar '%1' participant '%2'</source>
+          <target>Szkolenie '%1' uczestik '%2'</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType DescriptionTemplateTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 4248342087 - Action 837188477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create sales invoice</source>
+          <target>Utwórz faktury sprzedaży</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Page - Action CodeUnit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997620480 - NamedType 2584897158" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can create invoice only for finished seminar.</source>
+          <target>Możesz uwtorzyć faktury tylko dla zakończonego szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType SeminarRegistrationStatusError</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 1582893390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+          <target>Lista uczestników szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Strona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel PageLbl</note>
+        </trans-unit>
+         <trans-unit id="Report 1464225574 - ReportLabel 1420715300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Participants per registration</source>
+          <target>Liczba uczestników w ramach rejestracji</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel ParticipantsPerRegistrationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 2410138484" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total paerticipants</source>
+          <target>Sumaryczna liczba uczestników szkoleń</target>[Count(ParticipantContactNo_SeminarRegistrationLine)]
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4248342087 - Action 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+          <target>Lista uczestników szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Page - Action Seminar Participant List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+           <target>Lista uczestników szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Report</source>
+          <target>Zestawienie szkoleń</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - ReportLabel 3255072324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Report</source>
+          <target>Zestawienie szkoleń</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - ReportLabel TitleLbl2</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - ReportLabel 1245862610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Kwota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - ReportLabel AmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Strona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - Control 3773114875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Details</source>
+          <target>Pokaż szczegóły</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - Control Show Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 4119905856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Manager</source>
+          <target>Manager szkoleń</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Seminar Manager - Property Caption</note>
+        </trans-unit>
+         <trans-unit id="Table 2143111931 - NamedType 3347343535" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to change that field?</source>
+          <target>Czy jesteś pewny_na, że chcesz zmienić to pole?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType changeSeminarCodeAsk</note>
+        </trans-unit>
+        <trans-unit id="Page 2473458089 - Action 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+          <target>Lista uczestników szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Role Center - Action Seminar Participant List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2473458089 - Action 4006709451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Report</source>
+          <target>Zestawienie szkoleń</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Role Center - Action Seminar Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2473458089 - Action 2846763215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export XML</source>
+          <target>Eksport uczestników szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Role Center - Action Export XML - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 744225966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration Export</source>
+          <target>Eksport uczestników szkolenia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort SeminarRegistrationExport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - ReportLabel 1314000525" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target>Nie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - ReportLabel NoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4006709451 - ReportLabel 4212456975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target>Tak</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Report - ReportLabel YesLbl</note>
+        </trans-unit>
+        
       </group>
     </body>
   </file>
