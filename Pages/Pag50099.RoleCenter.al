@@ -48,12 +48,34 @@ page 50099 "Role Center"
             {
                 Caption = 'Quests';
 
-
+                action("Export XML")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Export XML';
+                    Image = XMLFile;
+                    RunObject = xmlport SeminarRegistrationExport;
+                }
             }
 
             group(Raports)
             {
                 Caption = 'Raports';
+
+                action("Seminar Participant List")
+                {
+                    Caption = 'Seminar Participant List';
+                    ApplicationArea = All;
+                    Image = Report;
+                    RunObject = report "Seminar Participant List";
+                }
+
+                action("Seminar Report")
+                {
+                    Caption = 'Seminar Report';
+                    ApplicationArea = All;
+                    Image = Report;
+                    RunObject = report "Seminar Report";
+                }
 
             }
         }
